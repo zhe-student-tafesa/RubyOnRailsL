@@ -14,3 +14,5 @@
 //= require activestorage
 
 //= require_tree .
+
+// # 总的application：包括application.css 和application.js
