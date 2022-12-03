@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   # 等同于get('first' ,to: "home#first")
   get 'first' ,to: "home#first"
   get 'second' ,to: "home#second"
+  get 'post/:id' ,to: "home#show_post"
 end
