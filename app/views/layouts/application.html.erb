@@ -13,8 +13,13 @@
   </head>
 
   <body>
+    <div>  
+      <%= link_to  "<h1 style='color:brown;'>Progress Bar</h1>".html_safe, root_path  %>
+      <%= link_to 'First一般情况推荐', first_path  %>
+      <%= link_to 'Second推荐', second_path  %>
+    </div>
     <%= yield %>
   </body>
 </html>
 
-# 总的application：包括application.css 和application.js
+
